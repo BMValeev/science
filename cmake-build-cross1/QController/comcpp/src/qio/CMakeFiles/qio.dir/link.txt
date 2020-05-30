@@ -1,0 +1,2 @@
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ar qc libqio.a  CMakeFiles/qio.dir/qio_autogen/mocs_compilation.cpp.o CMakeFiles/qio.dir/qioabstract.cpp.o CMakeFiles/qio.dir/qiorequestresponse.cpp.o CMakeFiles/qio.dir/qiotransactionbase.cpp.o CMakeFiles/qio.dir/qserialsettings.cpp.o
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ranlib libqio.a

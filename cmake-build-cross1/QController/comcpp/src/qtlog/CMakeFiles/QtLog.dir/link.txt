@@ -1,0 +1,2 @@
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ar qc libQtLog.a  CMakeFiles/QtLog.dir/QtLog_autogen/mocs_compilation.cpp.o CMakeFiles/QtLog.dir/log.cpp.o CMakeFiles/QtLog.dir/logfilemodel.cpp.o CMakeFiles/QtLog.dir/logmodel.cpp.o CMakeFiles/QtLog.dir/logmodelbase.cpp.o CMakeFiles/QtLog.dir/logsortfiltermodel.cpp.o CMakeFiles/QtLog.dir/qloggable.cpp.o CMakeFiles/QtLog.dir/qloggableobject.cpp.o
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ranlib libQtLog.a

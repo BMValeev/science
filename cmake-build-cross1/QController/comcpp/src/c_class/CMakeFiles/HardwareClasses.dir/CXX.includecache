@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/c_class/HardwareClasses_autogen/mocs_compilation.cpp
+

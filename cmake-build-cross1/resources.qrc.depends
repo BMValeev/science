@@ -1,0 +1,86 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="folder.png">images/folder.png</file>
+        <file alias="image.png">images/image.png</file>
+        <file alias="folder_open.png">images/folder_open.png</file>
+        <file alias="video.png">images/video.png</file>
+        <file alias="record.png">images/record.png</file>
+        <file alias="translation.png">images/translation.png</file>
+        <file alias="usb_on.png">images/usb_on.png</file>
+        <file alias="back.png">images/back.png</file>
+        <file alias="goLeft.png">images/goLeft.png</file>
+        <file alias="goRight.png">images/goRight.png</file>
+        <file alias="plus.png">images/plus.png</file>
+        <file alias="minus.png">images/minus.png</file>
+        <file alias="pause.png">images/pause.png</file>
+        <file alias="play.png">images/play.png</file>
+        <file alias="statusPause.png">images/statusPause.png</file>
+        <file alias="statusPlay.png">images/statusPlay.png</file>
+        <file alias="up.png">images/up.png</file>
+        <file alias="down.png">images/down.png</file>
+        <file alias="left.png">images/left.png</file>
+        <file alias="right.png">images/right.png</file>
+        <file alias="enter.png">images/enter.png</file>
+        <file alias="apply.png">images/apply.png</file>
+
+        <file>main.qml</file>
+        <file>demo.qml</file>
+
+        <file>content/Pages/MainPage.qml</file>
+        <file>content/Pages/SecondPage.qml</file>
+        <file>content/Pages/DataPage.qml</file>
+        <file>content/Pages/SDataPage.qml</file>
+        <file>content/Pages/BPFPage.qml</file>
+        <file>content/Pages/LogPage.qml</file>
+        <file>content/Pages/ThirdPage.qml</file>
+        <file>content/Pages/MenuPage.qml</file>
+
+        <file>content/MenuClasses/MenuMap.qml</file>
+        <file>content/MenuClasses/MenuInt.qml</file>
+        <file>content/MenuClasses/MenuBool.qml</file>
+        <file>content/MenuClasses/MenuEnabler.qml</file>
+        <file>content/MenuClasses/MenuIP.qml</file>
+        <file>content/MenuClasses/MenuDate.qml</file>
+        <file>content/MenuClasses/MenuLoader.qml</file>
+
+
+        <file>content/MenuOptions/Usb/Format.qml</file>
+        <file>content/MenuOptions/Usb/Correction.qml</file>
+        <file>content/MenuOptions/Usb/USBBlock.qml</file>
+        <file>content/MenuOptions/Usb/Browser.qml</file>
+
+        <file>content/MenuOptions/Service/Volume.qml</file>
+        <file>content/MenuOptions/Service/Messages.qml</file>
+        <file>content/MenuOptions/Service/Language.qml</file>
+        <file>content/MenuOptions/Service/FactoryReset.qml</file>
+        <file>content/MenuOptions/Service/Date.qml</file>
+
+        <file>content/MenuOptions/Button/Buttons.qml</file>
+
+
+        <file>content/Delegates/AndroidDelegate.qml</file>
+        <file>content/Delegates/ParamDelegate.qml</file>
+        <file>content/Delegates/AppPageView.qml</file>
+        <file>content/Delegates/AppParamView.qml</file>
+
+        <file>content/Popups/Process.qml</file>
+        <file>content/Popups/Close.qml</file>
+
+        <file>content/Regulators/Regulator.qml</file>
+        <file>content/Regulators/ItemSelector.qml</file>
+        <file>content/Regulators/Enabler.qml</file>
+        <file>content/Regulators/Switcher.qml</file>
+        <file>content/Regulators/Date.qml</file>
+        <file>content/Regulators/Address.qml</file>
+        <file>content/Regulators/Button.qml</file>
+        <file>content/Regulators/FileBrowser2.qml</file>
+
+        <file>content/FileSystem/FileBrowser.qml</file>
+        <file>content/FileSystem/Content.qml</file>
+        <file>content/FileSystem/VideoSeek.qml</file>
+        <file>content/FileSystem/SeekControl.qml</file>
+        <file>content/FileSystem/VideoItem.qml</file>
+        <file>content/FileSystem/ImageFile.qml</file>
+
+    </qresource>
+</RCC>

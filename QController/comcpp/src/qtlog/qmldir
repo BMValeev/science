@@ -1,0 +1,5 @@
+# qmldir
+module qtlog
+
+Log 1.0 Log.qml
+

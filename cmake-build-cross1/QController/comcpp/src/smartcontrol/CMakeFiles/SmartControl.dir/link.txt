@@ -1,0 +1,2 @@
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ar qc libSmartControl.a  CMakeFiles/SmartControl.dir/SmartControl_autogen/mocs_compilation.cpp.o CMakeFiles/SmartControl.dir/cardsdatabase.cpp.o CMakeFiles/SmartControl.dir/exchangecardbase.cpp.o CMakeFiles/SmartControl.dir/record.cpp.o CMakeFiles/SmartControl.dir/sccontrollerbase.cpp.o CMakeFiles/SmartControl.dir/scdefs.cpp.o
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ranlib libSmartControl.a

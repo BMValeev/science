@@ -1,0 +1,2 @@
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ar qc libSPIHardwareClasses.a  CMakeFiles/SPIHardwareClasses.dir/SPIHardwareClasses_autogen/mocs_compilation.cpp.o CMakeFiles/SPIHardwareClasses.dir/SPI.cpp.o CMakeFiles/SPIHardwareClasses.dir/MCU.cpp.o CMakeFiles/SPIHardwareClasses.dir/spipacket.cpp.o
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ranlib libSPIHardwareClasses.a

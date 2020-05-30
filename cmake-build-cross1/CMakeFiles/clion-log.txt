@@ -1,0 +1,5 @@
+/home/sielf/Downloads/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Cross1 -DCMAKE_TOOLCHAIN_FILE=toolchain-imx6.cmake -G "CodeBlocks - Unix Makefiles" /home/sielf/cloud/science
+-- Could NOT find Boost (missing: Boost_INCLUDE_DIR math) (Required is at least version "1.45.0")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sielf/cloud/science/cmake-build-cross1

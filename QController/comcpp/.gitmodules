@@ -1,0 +1,6 @@
+[submodule "c_class"]
+	path = src/c_class
+	url = ssh://git@192.168.0.12:2222/valeev_bm/c_class.git
+[submodule "src/qtlog"]
+	path = src/qtlog
+	url = ssh://git@192.168.0.12:2222/podkurkov_ia/qtlog.git

@@ -1,0 +1,42 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-gcc 
+Build flags: ;;-march=armv7-a;-marm;-mfpu=neon;;-mfloat-abi=hard;-mcpu=cortex-a9;;-march=armv7-a;-marm;-mfpu=neon;;-mfloat-abi=hard;-mcpu=cortex-a9
+Id flags:  
+
+The output was:
+1
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find crt1.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find crti.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find crtbegin.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lgcc
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lgcc_s
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lc
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lgcc
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lgcc_s
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find crtend.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++ 
+Build flags: ;;-march=armv7-a;-marm;-mfpu=neon;;-mfloat-abi=hard;-mcpu=cortex-a9;;-march=armv7-a;-marm;-mfpu=neon;;-mfloat-abi=hard;-mcpu=cortex-a9
+Id flags:  
+
+The output was:
+1
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find crt1.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find crti.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find crtbegin.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lstdc++
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lm
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lgcc_s
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lgcc
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lc
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lgcc_s
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find -lgcc
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find crtend.o: No such file or directory
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+

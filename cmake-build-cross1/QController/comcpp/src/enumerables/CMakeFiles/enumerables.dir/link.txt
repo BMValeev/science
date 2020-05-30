@@ -1,0 +1,2 @@
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ar qc libenumerables.a  CMakeFiles/enumerables.dir/enumerables_autogen/mocs_compilation.cpp.o CMakeFiles/enumerables.dir/qenumerablefloat.cpp.o CMakeFiles/enumerables.dir/qenumerableint.cpp.o CMakeFiles/enumerables.dir/qenumerablestring.cpp.o
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ranlib libenumerables.a

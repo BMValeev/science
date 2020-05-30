@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Science"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\QController\;CMake Files\QController\comcpp\;CMake Files\QController\comcpp\src\;CMake Files\QController\comcpp\src\c_class\;CMake Files\QController\comcpp\src\c_class\Backlight\;CMake Files\QController\comcpp\src\c_class\Rest\;CMake Files\QController\comcpp\src\c_class\SPI\;CMake Files\QController\comcpp\src\c_class\I2C\;CMake Files\QController\comcpp\src\c_class\Gpio\;CMake Files\QController\comcpp\src\c_class\Serial\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Quick\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5QuickControls2\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Charts\;CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Widgets\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Science">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/Science" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QUICKCONTROLS2_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/Science_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science"/>
+					<Add directory="/home/eleps/cloud/code/science/QController"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQml"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtNetwork"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuick"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtGui"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuickControls2"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtMultimedia"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCharts"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtWidgets"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 Science"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Science/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/Science" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QUICKCONTROLS2_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/Science_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science"/>
+					<Add directory="/home/eleps/cloud/code/science/QController"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQml"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtNetwork"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuick"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtGui"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuickControls2"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtMultimedia"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCharts"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtWidgets"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 Science/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Science_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 Science_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Controllers">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/libControllers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QUICKCONTROLS2_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/Controllers_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQml"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtNetwork"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuick"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtGui"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuickControls2"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtMultimedia"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 Controllers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Controllers/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/libControllers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QUICKCONTROLS2_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/Controllers_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQml"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtNetwork"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuick"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtGui"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuickControls2"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtMultimedia"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 Controllers/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Controllers_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 Controllers_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComCpp">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/libComCpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/ComCpp_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQml"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtNetwork"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 ComCpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComCpp/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/libComCpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/ComCpp_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQml"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtNetwork"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 ComCpp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComCpp_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 ComCpp_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComCppSrc">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/libComCppSrc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/ComCppSrc_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQml"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtNetwork"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 ComCppSrc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComCppSrc/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/libComCppSrc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/ComCppSrc_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQml"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtNetwork"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 ComCppSrc/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComCppSrc_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 ComCppSrc_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HardwareClasses">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/libHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/HardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Gpio"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 HardwareClasses"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HardwareClasses/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/libHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/HardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Gpio"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 HardwareClasses/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HardwareClasses_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 HardwareClasses_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RestHardwareClasses">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/libRestHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/RestHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 RestHardwareClasses"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RestHardwareClasses/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/libRestHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/RestHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 RestHardwareClasses/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RestHardwareClasses_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 RestHardwareClasses_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPIHardwareClasses">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/libSPIHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/SPIHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 SPIHardwareClasses"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPIHardwareClasses/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/libSPIHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/SPIHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 SPIHardwareClasses/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPIHardwareClasses_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 SPIHardwareClasses_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="I2CHardwareClasses">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/libI2CHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/I2CHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 I2CHardwareClasses"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="I2CHardwareClasses/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/libI2CHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/I2CHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 I2CHardwareClasses/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="I2CHardwareClasses_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 I2CHardwareClasses_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GpioHardwareClasses">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/libGpioHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/GpioHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Gpio"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 GpioHardwareClasses"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GpioHardwareClasses/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/libGpioHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/GpioHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Gpio"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 GpioHardwareClasses/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GpioHardwareClasses_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 GpioHardwareClasses_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BacklightHardwareClasses">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/libBacklightHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/BacklightHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 BacklightHardwareClasses"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BacklightHardwareClasses/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/libBacklightHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/BacklightHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 BacklightHardwareClasses/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BacklightHardwareClasses_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 BacklightHardwareClasses_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerialHardwareClasses">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/libSerialHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/SerialHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 SerialHardwareClasses"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerialHardwareClasses/fast">
+				<Option output="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/libSerialHardwareClasses.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/SerialHardwareClasses_autogen/include"/>
+					<Add directory="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64_all/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 SerialHardwareClasses/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerialHardwareClasses_autogen">
+				<Option working_dir="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 SerialHardwareClasses_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/backlight_driver.cpp">
+			<Option target="BacklightHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/backlight_driver.h">
+			<Option target="BacklightHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/backlight_pwm.cpp">
+			<Option target="BacklightHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/backlight_pwm.h">
+			<Option target="BacklightHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/backlightinterface.cpp">
+			<Option target="BacklightHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/backlightinterface.h">
+			<Option target="BacklightHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/screenlight.cpp">
+			<Option target="BacklightHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/screenlight.h">
+			<Option target="BacklightHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/BoardModule.cpp">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/BoardModule.h">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/Board_FHD.cpp">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/Board_FHD.h">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/ConnModule.cpp">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/ConnModule.h">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/Fpga_fhd.cpp">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/Fpga_fhd.h">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/I2C.cpp">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/I2C.h">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/chargeinterface.cpp">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/chargeinterface.h">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/i2cpacket.cpp">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/i2cpacket.h">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/stc3115_Driver.cpp">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/stc3115_Driver.h">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/DateModule.cpp">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/DateModule.h">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/FlashCard.cpp">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/FlashCard.h">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/crc.cpp">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/crc.h">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/defs.cpp">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/defs.h">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/loggable.cpp">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/loggable.h">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/MCU.cpp">
+			<Option target="SPIHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/MCU.h">
+			<Option target="SPIHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/SPI.cpp">
+			<Option target="SPIHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/SPI.h">
+			<Option target="SPIHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/spipacket.cpp">
+			<Option target="SPIHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/spipacket.h">
+			<Option target="SPIHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial/CameraHead.cpp">
+			<Option target="SerialHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial/CameraHead.h">
+			<Option target="SerialHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial/Serial.cpp">
+			<Option target="SerialHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial/Serial.h">
+			<Option target="SerialHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/QController/Controllers_autogen/moc_compilation.cpp">
+			<Option target="Controllers"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/ComCpp_autogen/moc_compilation.cpp">
+			<Option target="ComCpp"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/ComCppSrc_autogen/moc_compilation.cpp">
+			<Option target="ComCppSrc"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Backlight/BacklightHardwareClasses_autogen/moc_compilation.cpp">
+			<Option target="BacklightHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Gpio/GpioHardwareClasses_autogen/moc_compilation.cpp">
+			<Option target="GpioHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/HardwareClasses_autogen/moc_compilation.cpp">
+			<Option target="HardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/I2C/I2CHardwareClasses_autogen/moc_compilation.cpp">
+			<Option target="I2CHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Rest/RestHardwareClasses_autogen/moc_compilation.cpp">
+			<Option target="RestHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/SPI/SPIHardwareClasses_autogen/moc_compilation.cpp">
+			<Option target="SPIHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/QController/comcpp/src/c_class/Serial/SerialHardwareClasses_autogen/moc_compilation.cpp">
+			<Option target="SerialHardwareClasses"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/Science_autogen/moc_compilation.cpp">
+			<Option target="Science"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/cmake-build-cross1/qrc_resources.cpp">
+			<Option target="Science"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/datasource.cpp">
+			<Option target="Science"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/datasource.h">
+			<Option target="Science"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/main.cpp">
+			<Option target="Science"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/resources.qrc">
+			<Option target="Science"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/sensordata.cpp">
+			<Option target="Science"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/sensordata.h">
+			<Option target="Science"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/toolchain-imx6.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/resources.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Backlight\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Backlight\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Backlight\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Backlight\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Backlight\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Backlight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Backlight\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Rest\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Rest\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Rest\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Rest\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Rest\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Rest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Rest\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\SPI\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\SPI\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\SPI\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\SPI\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\SPI\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/SPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\SPI\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\I2C\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\I2C\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\I2C\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\I2C\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\I2C\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/I2C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\I2C\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Gpio\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Gpio\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Gpio\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Gpio\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Gpio\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Gpio\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Serial\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Serial\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Serial\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Serial\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Serial\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/QController/comcpp/src/c_class/Serial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Serial\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/Qt5QuickControls2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5QuickControls2\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/Qt5QuickControls2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5QuickControls2\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/Qt5QuickControls2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5QuickControls2\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/Qt5QuickControls2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5QuickControls2\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/Qt5QuickControls2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5QuickControls2\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/Qt5QuickControls2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5QuickControls2\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5Multimedia_QAlsaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSVivIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSVivWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/eleps/cloud/code/science/../../../../../usr/local/oecore-x86_64_all/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\oecore-x86_64_all\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

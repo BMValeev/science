@@ -1,0 +1,9 @@
+[submodule "videofiles"]
+	path = QController/videofiles
+	url = ssh://git@192.168.0.12:2222/valeev_bm/videofiles.git
+[submodule "QController/qtlog"]
+	path = QController/comcpp/src/qtlog
+	url = ssh://git@192.168.0.12:2222/podkurkov_ia/qtlog.git
+[submodule "QController/comcpp"]
+	path = QController/comcpp
+	url = ssh://git@192.168.0.12:2222/podkurkov_ia/comcpp.git

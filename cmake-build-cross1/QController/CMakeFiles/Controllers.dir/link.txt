@@ -1,0 +1,2 @@
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ar qc libControllers.a  CMakeFiles/Controllers.dir/Controllers_autogen/mocs_compilation.cpp.o CMakeFiles/Controllers.dir/configSensor.cpp.o CMakeFiles/Controllers.dir/QEnumerableMap.cpp.o
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ranlib libControllers.a

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/qtlog">
+        <file>Log.qml</file>
+        <file>qmldir</file>
+    </qresource>
+</RCC>

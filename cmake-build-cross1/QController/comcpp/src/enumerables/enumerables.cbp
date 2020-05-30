@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="enumerables"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\QController\;CMake Files\QController\comcpp\;CMake Files\QController\comcpp\src\;CMake Files\QController\comcpp\src\c_class\;CMake Files\QController\comcpp\src\c_class\Backlight\;CMake Files\QController\comcpp\src\c_class\Rest\;CMake Files\QController\comcpp\src\c_class\SPI\;CMake Files\QController\comcpp\src\c_class\I2C\;CMake Files\QController\comcpp\src\c_class\Gpio\;CMake Files\QController\comcpp\src\c_class\Serial\;CMake Files\QController\comcpp\src\enumerables\;CMake Files\QController\comcpp\src\failureHandling\;CMake Files\QController\comcpp\src\qio\;CMake Files\QController\comcpp\src\lineeditor\;CMake Files\QController\comcpp\src\smartcontrol\;CMake Files\QController\comcpp\src\qtlog\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Quick\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5QuickControls2\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5SerialPort\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Charts\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Widgets\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enumerables">
+				<Option output="/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/libenumerables.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QUICKCONTROLS2_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add directory="/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/enumerables_autogen/include"/>
+					<Add directory="/home/sielf/cloud/science/QController/comcpp/src/enumerables"/>
+					<Add directory="/home/sielf/cloud/science/QController/comcpp/src/enumerables/.."/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQml"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtNetwork"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuick"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtGui"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuickControls2"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtMultimedia"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 enumerables"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enumerables/fast">
+				<Option output="/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/libenumerables.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QUICKCONTROLS2_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add directory="/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/enumerables_autogen/include"/>
+					<Add directory="/home/sielf/cloud/science/QController/comcpp/src/enumerables"/>
+					<Add directory="/home/sielf/cloud/science/QController/comcpp/src/enumerables/.."/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQml"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtNetwork"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/qt5/mkspecs/linux-oe-g++"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuick"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtGui"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtQuickControls2"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/include/qt5/QtMultimedia"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include"/>
+					<Add directory="/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/7.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 enumerables/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enumerables_autogen">
+				<Option working_dir="/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 enumerables_autogen"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/enumerables/qenumerablefloat.cpp">
+			<Option target="enumerables"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/enumerables/qenumerablefloat.h">
+			<Option target="enumerables"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/enumerables/qenumerableint.cpp">
+			<Option target="enumerables"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/enumerables/qenumerableint.h">
+			<Option target="enumerables"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/enumerables/qenumerablestring.cpp">
+			<Option target="enumerables"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/enumerables/qenumerablestring.h">
+			<Option target="enumerables"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/cmake-build-cross1/QController/comcpp/src/enumerables/enumerables_autogen/mocs_compilation.cpp">
+			<Option target="enumerables"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/resources.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/toolchain-imx6.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/c_class/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/c_class/Backlight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Backlight\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/c_class/Rest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Rest\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/c_class/SPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\SPI\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/c_class/I2C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\I2C\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/c_class/Gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Gpio\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/c_class/Serial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\c_class\Serial\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/enumerables/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\enumerables\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/failureHandling/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\failureHandling\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/qio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\qio\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/lineeditor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\lineeditor\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/smartcontrol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\smartcontrol\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/qtlog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\qtlog\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/QController/comcpp/src/qtlog/qtlog.qrc">
+			<Option virtualFolder="CMake Files\QController\comcpp\src\qtlog\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/Qt5QuickControls2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5QuickControls2\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/Qt5QuickControls2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5QuickControls2\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5Multimedia_QAlsaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSVivIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSVivWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sielf/cloud/science/../../../../usr/local/oecore-x86_64/sysroots/cortexa9hf-neon-oe-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\oecore-x86_64\sysroots\cortexa9hf-neon-oe-linux-gnueabi\usr\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

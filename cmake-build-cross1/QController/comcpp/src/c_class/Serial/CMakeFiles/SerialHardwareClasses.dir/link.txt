@@ -1,0 +1,2 @@
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ar qc libSerialHardwareClasses.a  CMakeFiles/SerialHardwareClasses.dir/SerialHardwareClasses_autogen/mocs_compilation.cpp.o CMakeFiles/SerialHardwareClasses.dir/Serial.cpp.o CMakeFiles/SerialHardwareClasses.dir/CameraHead.cpp.o
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ranlib libSerialHardwareClasses.a
