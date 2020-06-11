@@ -7,6 +7,7 @@ import "../Delegates"
 import "../Regulators"
 import "../Pages"
 import "../Popups"
+import "../MenuClasses"
 Item{
     Component.onCompleted:{console.log("main created");}
     Component.onDestruction:{console.log("main destructed");}
@@ -70,6 +71,23 @@ property var locale: Qt.locale()
     }
     Process{id:error1;enab:false}
     Close{id:error2;enab:false}
+    Rectangle{
+        color:mainColor
+        x: Math.round( parent.width*0.25  )
+        y: Math.round( parent.height*0.9 )
+        height:parent.height*0.1
+        width:parent.width*0.75;
+    }
+    Rectangle{
+        x: Math.round( parent.width*0.25  )
+        y: Math.round( parent.height*0.8 )
+        color:mainColor
+        height:parent.height*0.1
+        width:parent.width*0.75;
+        Button{id:freqBut;text: "  Частота";height:parent.height*1.1;width:parent.width/3;enabled:false;      }
+        MenuInt{anchors.left:freqBut.right;height:parent.height; width:parent.width*0.66; value:dataSource.freqVal}
+    }
+
     function setClosed(){error1.enab=false;}
     function setOpened(){error1.enab=true;}
     Timer {

@@ -29,7 +29,8 @@
 
 #ifndef DATASOURCE_H
 #define DATASOURCE_H
-#include <math.h>
+
+#include <vector>
 #include <QtCore/QObject>
 #include <QtCharts/QAbstractSeries>
 #include <QtQml/QQmlApplicationEngine>
@@ -41,6 +42,7 @@
 #include <QSettings>
 #include "configSensor.h"
 #include "QEnumerableMap.h"
+#include <math.h>
 QT_CHARTS_USE_NAMESPACE
 
 QT_BEGIN_NAMESPACE
@@ -106,7 +108,6 @@ public slots:
     float maxV(unsigned int val);
     float getVal(unsigned int val);
     void generateNet();
-
     QEnumerableInt* c_R(){return cR;};
     QEnumerableInt* c_r1(){return cr1;};
     QEnumerableInt* c_r2(){return cr2;};
@@ -120,6 +121,7 @@ private:
     sensordata* giver;
     QQuickView *m_appViewer;
     QVector<QPointF> m_simple,m_data,m_fft,m_round,m_chatter,m_round_ideal,m_cap;
+    std::vector <double> for_fft;
     int m_index;
     unsigned int size,val;
     float roundness,chatter,rad,meanVal,meanValD;
@@ -140,6 +142,7 @@ private:
     // double valC3(double x){return valC(x,c_r3()->val()*0.001);}
      double FtoC(double x);
      float median_f(float x);
+     int max_cnt;
 };
 
 #endif // DATASOURCE_H

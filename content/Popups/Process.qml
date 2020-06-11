@@ -5,9 +5,9 @@ CCC2.Popup{
     property bool enab: false
     id: popup
     parent: CCC2.Overlay.overlay
-    x: Math.round( parent.width*0.1  )
-    y: Math.round( parent.height*0.7 )
-    height:parent.height/4
+    x: Math.round( parent.width*0.25  )
+    y: Math.round( parent.height*0.9 )
+    height:parent.height/10
     width:parent.width*0.75;
     onEnabChanged:{
         if(enab){popup.open()}

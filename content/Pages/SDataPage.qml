@@ -25,7 +25,7 @@ Item{
                 onClicked: {stackView.source="DataPage.qml";}
         }
         Button{text: "Авто";height:parent.height/4;width:parent.width;
-                onClicked:{axisY.min=dataSource.getVal(2)-5000;axisY.max=dataSource.getVal(2)+5000;   }
+                onClicked:{axisY.min=dataSource.getVal(2)-50000;axisY.max=dataSource.getVal(2)+50000;   }
         }
         Button{text: "Clear";height:parent.height/4;width:parent.width;
                 onClicked:{dataSource.reconf();  }
@@ -45,7 +45,7 @@ Item{
     theme: ChartView.ChartThemeDark
     SplineSeries {id:lineSeries1;  axisX: axisX; axisY: axisY;useOpenGL:true; }
     ValueAxis { id: axisY;min: 1400; max: 1500; }
-    ValueAxis {id: axisX;min: 0;max: 1000;}
+    ValueAxis {id: axisX;min: 0;max: 1024;}
     }
     Timer {
         id: closeTimer2
@@ -54,6 +54,7 @@ Item{
             if(secondpage.focus==true){
             //console.log("4444444");
             dataSource.update(chartView.series(0),1);
+            //axisY.min=dataSource.getVal(2)-50000;axisY.max=dataSource.getVal(2)+50000;
             }
          }
     }

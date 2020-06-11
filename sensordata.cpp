@@ -16,12 +16,13 @@ sensordata::sensordata() :
         size(1024),m_index(0)        {
     values.reserve(size);
     for (unsigned int j(0); j < size; j++) {        values.append(10000000);    }
-    //configure(0x20,0x10);
+    configure(0xff,0x20);
+    //configure(0xff,0x10);
 }
 void sensordata::reconfigure(){configure(0xff,0x10);}
 void sensordata::configure(unsigned int val,unsigned int CHFIN) {
+    //return;
     std::vector<uint8_t> data,received;
-    //gst_init (&argc, &argv);
     I2C &i2c = I2C::getInstance();
     i2c.begin("/dev/i2c-2");
     data.push_back(0x1c);
@@ -30,7 +31,8 @@ void sensordata::configure(unsigned int val,unsigned int CHFIN) {
     i2c.transaction(0x2B<<1,data,0);
     data.clear();
     data.push_back(0x1a); //FDC2214_CONFIG
-    data.push_back(0x1c);//should be right
+    data.push_back(0x1f);//should be right
+    //data.push_back(0x1c);//should be right
     data.push_back(0x81);//should be right
     //data.push_back(0xC1);//should be right
     i2c.transaction(0x2B<<1,data,0);
@@ -69,19 +71,20 @@ void sensordata::configure(unsigned int val,unsigned int CHFIN) {
     data.clear();
     data.push_back(0x1b);
     data.push_back(0x02);//should work only on channel0
-    data.push_back(0x0d);//FDC2214_MUX_CONFIG
+   // data.push_back(0b00001111);//FDC2214_MUX_CONFIG
+    data.push_back(0b00001101);//FDC2214_MUX_CONFIG
     i2c.transaction(0x2B<<1,data,0);
     data.clear();
     data.push_back(0x1c);
     //data.push_back(0x06); //gain=16
-    data.push_back(0x04); //gain=16
+    data.push_back(0x04); //gain=1
     data.push_back(0x00);
     i2c.transaction(0x2B<<1,data,0);
     data.clear();
 }
 void sensordata::renewData(){
     //std::cout<<__func__<<std::endl;
-    return;
+    //return;
     unsigned int temp=0,temp_msb=0;
     float d_old=0.0;
     auto t1=std::chrono::system_clock::now();
@@ -95,10 +98,6 @@ void sensordata::renewData(){
     received=i2c.recData();
     i2c.transaction(0x2B<<1,data1,2);
     received2=i2c.recData();
-    //received.push_back(0x00);
-    //received.push_back(0x00);
-    //received2.push_back(0x00);
-    //received2.push_back(0x00);
     i2c_rdwr_ioctl_data message_1,message_0,message_2;
     memset(&message_1, 0, sizeof(message_1));
     memset(&message_0, 0, sizeof(message_0));

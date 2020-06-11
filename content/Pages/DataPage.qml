@@ -32,7 +32,10 @@ Item{
             onClicked: {stackView.source="SDataPage.qml";}
         }
         Button{text: "Авто";height:parent.height/4;width:parent.width;
-            onClicked:{axisY.min=dataSource.minV(0)-5;axisY.max=dataSource.maxV(0)+5;   }
+            onClicked:{axisY.min=dataSource.minV(0)-4000;axisY.max=dataSource.maxV(0)+4000;   }
+            //onClicked:{axisY.min=dataSource.minV(0)-400;axisY.max=dataSource.maxV(0)+400;   }
+            //onClicked:{axisY.min=dataSource.minV(0)-400;axisY.max=dataSource.getVal(3);   }
+            //onClicked:{axisY.min=0;axisY.max=dataSource.maxV(0)+10;   }
         }
     }
     ChartView {
@@ -44,16 +47,16 @@ Item{
         top:parent.top;
         bottom:parent.bottom
      }
-    antialiasing: true
+    antialiasing: false
     animationOptions: ChartView.NoAnimation
     theme: ChartView.ChartThemeDark
     SplineSeries {id:lineSeries1;  axisX: axisX; axisY: axisY;useOpenGL:true; }
     ValueAxis { id: axisY;min: 1400; max: 1500; }
-    ValueAxis {id: axisX;min: 0;max: 1000;}
+    ValueAxis {id: axisX;min: 0;max: 1024;}
     }
     Timer {
         id: closeTimer2
-        interval: 1000; running: secondpage.focus; repeat: true
+        interval: 200; running: secondpage.focus; repeat: true
         onTriggered: {
             if(secondpage.focus==true){
             console.log("333333");

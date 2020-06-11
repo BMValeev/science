@@ -41,7 +41,7 @@ property var locale: Qt.locale()
         theme: ChartView.ChartThemeDark
         SplineSeries {id:lineSeries1;  axisX: axisX; axisY: axisY;useOpenGL:true; }
         ValueAxis { id: axisY;min: 0; max: 1; }
-        ValueAxis {id: axisX;min: 0;max: 512;}
+        ValueAxis {id: axisX;min: 0;max: 128;}
     }
         Timer {
             property bool status:  false
