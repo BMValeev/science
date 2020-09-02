@@ -42,22 +42,19 @@ DataSource::DataSource(QObject *parent) :
 }
 void DataSource::renewData(){
     auto t1=std::chrono::system_clock::now();
-//    static unsigned int v(0);
     float dur;
     static unsigned int cnt_index=0;
     unsigned int index= giver->renewPtr();
     QVector<float>* val=giver->renewVector();
     float l_mean=0.0,d_mean;
-    //unsigned int l_size=(giver->size)>>3;
     unsigned int m_size=(giver->size);
-    static bool init=false;
-    static int cnt=0, cnt_ptr=0;
     //std::cout<<"period: "<<std::pow(10,9)/giver->period()<< std::endl;
     float d;
     double temp;
     unsigned int i,cntr;
     if(cnt_index>index){i=m_size-cnt_index+index;}
     else{i=index-cnt_index;}
+    if(i==0){return;}
     std::cout<<" i: " <<i ;
     std::cout<<" cnt_index: " <<  cnt_index ;
     std::cout<<" index: " <<   index << std::endl;
@@ -70,7 +67,7 @@ void DataSource::renewData(){
     cntr=0;
     for(unsigned int n(m_size-i);n<(m_size);n++){
         d=val->at((cnt_index+(cntr++))%m_size);
-        temp=(fix(FtoC(d))) ;
+        temp=fir(fix(FtoC(d))) ;
         m_data[n]=QPoint(n,temp);
         m_simple[n]=QPoint(n,d);
         l_mean+=d;
@@ -81,22 +78,6 @@ void DataSource::renewData(){
     std::cout<<" to: " <<  m_size<< std::endl ;
     std::cout<<"Sensor count from : " <<cnt_index ;
     std::cout<<" Sensor to: " <<  cnt_index+cntr<< std::endl ;
-    /*for(unsigned int i(index);i<(m_size);i++){
-        d=val->at(i);
-        l_mean+=d;
-        temp=fix(FtoC(d));
-        d_mean+=temp;
-        m_data[i-index]=QPoint(i-index,temp);
-        m_simple[i-index]=QPoint(i-index,d);
-    }
-    for(unsigned int i(0);i<index;i++){
-        d=val->at(i);
-        l_mean+=d;
-        temp=fix(FtoC(d));
-        d_mean+=temp;
-        m_data[m_size-index+i]=QPoint(m_size-index+i, temp);
-        m_simple[m_size-index+i]=QPoint(m_size-index+i,d);
-    }*/
     cnt_index=index;
     meanVal*=(1-epsilon);
     meanValD*=(1-epsilon);
@@ -106,9 +87,7 @@ void DataSource::renewData(){
     std::cout<<"fix : "<<fix(FtoC(meanVal));
     std::cout<<" meanVal : "<<((meanValD))<< std::endl;
     calcValues();
-    cnt++;
     dur=std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::system_clock::now()-t1).count();
-    //std::cout<<"data process+receive: "<<dur<< std::endl;
 }
 
 

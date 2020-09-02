@@ -32,7 +32,7 @@ Item{
             onClicked: {stackView.source="SDataPage.qml";}
         }
         Button{text: "Авто";height:parent.height/4;width:parent.width;
-            onClicked:{axisY.min=dataSource.minV(0)-4000;axisY.max=dataSource.maxV(0)+4000;   }
+            onClicked:{axisY.min=dataSource.getVal(3)-500;axisY.max=dataSource.getVal(3)+500;   }
             //onClicked:{axisY.min=dataSource.minV(0)-400;axisY.max=dataSource.maxV(0)+400;   }
             //onClicked:{axisY.min=dataSource.minV(0)-400;axisY.max=dataSource.getVal(3);   }
             //onClicked:{axisY.min=0;axisY.max=dataSource.maxV(0)+10;   }
